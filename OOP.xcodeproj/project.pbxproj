@@ -12,6 +12,9 @@
 		C3932383228BE73A004874AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3932381228BE73A004874AE /* Main.storyboard */; };
 		C3932385228BE73B004874AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3932384228BE73B004874AE /* Assets.xcassets */; };
 		C3932388228BE73B004874AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3932386228BE73B004874AE /* LaunchScreen.storyboard */; };
+		C3932390228BE7B5004874AE /* CoffeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C393238F228BE7B5004874AE /* CoffeMachine.swift */; };
+		C3932392228C031A004874AE /* Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3932391228C031A004874AE /* Machine.swift */; };
+		C3932398228C052F004874AE /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3932397228C052F004874AE /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C3932384228BE73B004874AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3932387228BE73B004874AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3932389228BE73B004874AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C393238F228BE7B5004874AE /* CoffeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeMachine.swift; sourceTree = "<group>"; };
+		C3932391228C031A004874AE /* Machine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine.swift; sourceTree = "<group>"; };
+		C3932397228C052F004874AE /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				C3932384228BE73B004874AE /* Assets.xcassets */,
 				C3932386228BE73B004874AE /* LaunchScreen.storyboard */,
 				C3932389228BE73B004874AE /* Info.plist */,
+				C393238F228BE7B5004874AE /* CoffeMachine.swift */,
+				C3932391228C031A004874AE /* Machine.swift */,
+				C3932397228C052F004874AE /* RoundedButton.swift */,
 			);
 			path = OOP;
 			sourceTree = "<group>";
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3932390228BE7B5004874AE /* CoffeMachine.swift in Sources */,
+				C3932398228C052F004874AE /* RoundedButton.swift in Sources */,
+				C3932392228C031A004874AE /* Machine.swift in Sources */,
 				C3932380228BE73A004874AE /* ViewController.swift in Sources */,
 				C393237E228BE73A004874AE /* AppDelegate.swift in Sources */,
 			);
